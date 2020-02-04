@@ -1,0 +1,17 @@
+{
+  "name": "serverjson",
+  "version": "1.0.0",
+  "description": "Server Json",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Nujob Software",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "nodemon": "^1.19.2"
+  }
+}

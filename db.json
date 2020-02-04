@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Renato",
+      "last_name": "Scarante",
+      "email": "renato.scarante@nujob.com.br"
+    },
+    {
+      "id": 2,
+      "first_name": "Flávio",
+      "last_name": "Cabral",
+      "email": "flavio.cabral@nujob.com.br"
+    }
+  ],
+  "meetingRooms": [
+    {
+      "id": 1,
+      "name": "Sala Brasil",
+      "positions": 10,
+      "size": 25
+    },
+    {
+      "id": 2,
+      "name": "Sala Curitiba",
+      "positions": 5,
+      "size": 15
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "meetingRoomId": 1,
+      "date": "17/09/2019",
+      "start_time": "10:00",
+      "duration": 2
+    }
+  ]
+}
