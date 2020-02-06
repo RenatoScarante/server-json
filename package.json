@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "nodemon src/index",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "node src/index.js --routes config/routes.json"
   },
-  "author": "Nujob Software",
+  "author": "Scarante Soluções Tecnológicas ME",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.15.1",

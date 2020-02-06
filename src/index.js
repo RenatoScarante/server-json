@@ -1,11 +1,19 @@
+//https://www.npmjs.com/package/json-server
 // server.js
 const jsonServer = require("json-server");
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-//const middlewares = jsonServer.defaults()
+const db = require('./db/db.js')();
+const routes = require('./config/routes.json');
+const serverPort = 3334;
 
-//server.use(middlewares)
+const server = jsonServer.create();
+const router = jsonServer.router(db);
+const middlewares = jsonServer.defaults();
+
+server.use(jsonServer.rewriter(routes));
+server.use(middlewares);
 server.use(router);
-server.listen(3333, () => {
-  console.log("JSON Server is running");
+
+
+server.listen(serverPort, () => {
+  console.log(`JSON Server is running at port ${serverPort}`);
 });

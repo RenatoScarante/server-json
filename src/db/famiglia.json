@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "descendant": true,
+    "firstName": "Renato",
+    "middleName": "",
+    "lastName": "Scarante",
+    "birthday": "28/02/1983",
+    "email": "renato@scarante.com",
+    "father": { "userId": 2 },
+    "mother": { "userId": 3 },
+    "spouse" : {},
+    "brothers": [
+      { "userId": 4 },
+      { "userId": 5 }
+    ]
+  },
+  {
+    "id": 2,
+    "descendant": true,
+    "firstName": "Mauricio",
+    "middleName": "",
+    "lastName": "Scarante",
+    "birthday": "05/05/1957",
+    "email": "masca@gmail.com",
+    "father": {},
+    "mother": {},
+    "brothers": []
+  },
+  {
+    "id": 3,
+    "descendant": false,
+    "firstName": "Iracema",
+    "birthday": "04/05/1963",
+    "middleName": "da Cruz Savarin",
+    "lastName": "Scarante",
+    "email": "",
+    "father": {},
+    "mother": {},
+    "brothers": []
+  },
+  {
+    "id": 4,
+    "descendant": true,
+    "firstName": "Regiane",
+    "middleName": "",
+    "lastName": "Scarante",
+    "birthday": "06/05/1988",
+    "email": "rescarante@gmail.com",
+    "father": { "userId": 2 },
+    "mother": { "userId": 3 },
+    "brothers": [
+      { "userId": 1 },
+      { "userId": 5 }
+    ]
+  },
+  {
+    "id": 5,
+    "descendant": true,
+    "firstName": "Ricardo",
+    "middleName": "",
+    "lastName": "Scarante",
+    "birthday": "27/04/1991",
+    "email": "ricardoscarante@gmail.com",
+    "father": { "userId": 2 },
+    "mother": { "userId": 3 },
+    "brothers": [
+      { "userId": 1 },
+      { "userId": 4 }
+    ]
+  }
+]

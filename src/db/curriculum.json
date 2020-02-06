@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "fullname": "Renato Scarante",
+    "data": {
+      "summary": {
+        "tittle": {
+          "tittle": "",
+          "subtittle": ""
+        },
+        "name": "Renato",
+        "lastName": "Scarante",
+        "office": "FullStack Developer",
+        "location": {
+          "city": "Curitiba",
+          "state": "PR"
+        },
+        "avatar": "avatar_renato.jpeg",
+        "contacts": [
+          { "label": "Cidade", "value": "Curitiba, PR" },
+          { "label": "Celular", "value": "+55 41 98854-0622" },
+          { "label": "Web", "value": "www.scarante.com/renato" },
+          { "label": "E-mail", "value": "renato@scarante.com" }
+        ],
+        "socialMedia": [
+          {
+            "label": "LinkedIn",
+            "link": "https://www.linkedin.com/in/renato-scarante-9bb31019",
+            "icon": "fab fa-linkedin"
+          },
+          {
+            "label": "Instagram",
+            "link": "https://www.instagram.com/renatoscarante/",
+            "icon": "fab fa-instagram"
+          }
+        ]
+      },
+      "intro": {
+        "tittle": {
+          "tittle": "INTRO",
+          "subtittle": "Algo sobre mim."
+        },
+        "list": [
+          "Sou o Renato, 36 anos, casado, pai de dois filhos lindos, trabalho desde os 15 anos, comecei como office-boy (velho né?!) e já passei por diversas empresas desde pequeno até grande porte sempre na área de tecnologia, experimentei diversas linguagens, sempre atuando como full-stack (mesmo antes desse termo se popularizar).",
+          "Sou bem humorado, simpático, curioso, parceiro, me adapto fácil por onde passo. Acho que minha personalidade juntamente com minha experiência profissional me possibilitam tal feito.",
+          "Passei por vários tipos de negócios, fui desde um grande banco até um pequena empresa de tecnologia, fui do COBOL ao C#, e atualmente me reinventei no ReactJS / NodeJS (JavaScript). Já passei por algumas revoluções na minha vida, que sempre me evoluíram e atualmente passo por mais uma, como pessoa e como profissional.",
+          "Não é tão simples falar de si mesmo, mas sei das minhas característica e do que sou capaz. Simplesmente gosto do que sou e do que faço."
+        ]
+      },
+      "skills": {
+        "tittle": {
+          "tittle": "SKILLS",
+          "subtittle": "Barras de progresso?"
+        },
+        "list": [
+          { "name": "Dynamics AX 2012", "percent": 90},
+          { "name": "Dynamics 365", "percent": 50},
+          { "name": "COBOL", "percent": 90},
+          { "name": "C#", "percent": 75},
+          { "name": "ReactJS", "percent": 60},
+          { "name": "NodeJS", "percent": 60},
+          { "name": "Javascript", "percent": 60},
+          { "name": "CSS", "percent": 60},
+          { "name": "Bootstrap", "percent": 60},
+          { "name": "GitHub", "percent": 80},
+          { "name": "AWS", "percent": 80},
+          { "name": "Heroku", "percent": 80},
+          { "name": "Scrum", "percent": 80},
+          { "name": "Kanbam", "percent": 80},
+          { "name": "Mainframe", "percent": 50}
+        ]   
+      },
+      "experiences": {
+        "tittle": {
+          "tittle": "EXPERIÊNCIA",
+          "subtittle": "Sempre em frente."
+        },
+        "list": [
+          { 
+            "start": "2019/Dez", 
+            "end": "Atual", 
+            "company": "Deal Digital", 
+            "office": "FrontEnd Developer", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2018/Abr", 
+            "end": "2019/Dez", 
+            "company": "Nujob Software", 
+            "office": "FullStack Developer", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2013/Jul", 
+            "end": "2018/Abr", 
+            "company": "ateliware Software", 
+            "office": "FullStack Developer", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2012/Out", 
+            "end": "2013/Abr", 
+            "company": "BRQ IT Services", 
+            "office": "Consultor II - Analista de Sistemas", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2011/Set", 
+            "end": "2012/Out", 
+            "company": "Stefanini", 
+            "office": "System Analyst", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2009/Nov", 
+            "end": "2011/Mai", 
+            "company": "ID Data Tecnologia", 
+            "office": "Analyst Development", 
+            "location": "Colombo, PR",
+            "summary": ""  
+          },
+          { 
+            "start": "2003/Jul", 
+            "end": "2009/Jun", 
+            "company": "HSBC Bank Brasil - Banco Múltiplo", 
+            "office": "Analista de Programas Pleno", 
+            "location": "Curitiba, PR",
+            "summary": ""  
+          }
+        ]
+      },
+      "educations": {
+        "tittle": {
+          "tittle": "FORMAÇÃO",
+          "subtittle": "Preparado."
+        },
+        "list": [
+          { 
+            "start": "2013", 
+            "end": "2016", 
+            "school": "Centro Tec. Positivo", 
+            "course": "Análise e Desenvolvimento de Sistemas", 
+            "location": "Curitiba, PR",
+            "obs": ""
+          },
+          { 
+            "start": "2001", 
+            "end": "2005", 
+            "school": "Universidade Positivo", 
+            "course": "Engenharia da Computação ", 
+            "location": "Curitiba, PR",
+            "obs": "Interrompido"
+          }
+        ]
+      },
+      "contacts": {
+        "tittle": {
+          "tittle": "CONTATOS",
+          "subtittle": "Se precisar é só chamar."
+        },
+        "list": [
+          { "label": "Cidade", "value": "Curitiba, PR" },
+          { "label": "Celular", "value": "+55 41 98854-0622" },
+          { "label": "Web", "value": "www.scarante.com/renato" },
+          { "label": "E-mail", "value": "renato@scarante.com" }
+        ]
+      }
+    }
+  }
+]
