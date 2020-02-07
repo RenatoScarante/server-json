@@ -1,8 +1,20 @@
 [
   {
     "id": 1,
-    "first_name": "Renato",
-    "last_name": "Scarante",
+    "firstName": "Renato",
+    "lastName": "Scarante",
+    "email": "renato@scarante.com"
+  },
+  {
+    "id": 2,
+    "firstName": "User2",
+    "lastName": "Teste",
+    "email": "renato@scarante.com"
+  },
+  {
+    "id": 3,
+    "firstName": "User3",
+    "lastName": "Teste",
     "email": "renato@scarante.com"
   }
 ]
